@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    
 }
 h1{
     font-size: 50px;;
@@ -7,13 +9,105 @@ h1{
 #Header #coloring{
     color: orange;
 }
-
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 5%;
+    margin-left: 4%;
     padding-left: 2%;
 }
 img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 15px;
+}
+.button-link{
+    color: white;
+    padding: 12px 22px;
+    background-image: linear-gradient(60deg,rgb(218, 159, 50),tomato);
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: 750;
+}
+.second-para{
+    width: 40%;
+    float: left;
+    margin-left: 60px;
+    padding-left: 5px;
+    font-weight: 500;
+    color: rgb(26, 24, 24);
+
+}
+.bottom-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+  .cv-link{
+    color:white;
+    padding: 12px 22px;
+    background-image: linear-gradient(60deg,rgb(218, 159, 50),tomato);
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: 600;
+}
+#second-image{
+    width: 80%;
+}
+h2{
+        font-size: 40px;;
+}
+.Intro{
+    color:rgb(0, 0, 0);
+}
+.highlight{
+    color: rgb(250, 164, 34);
+}
+.first{
+    margin: 5%;
+    width: 35%;
+    float: left;
+    box-shadow:10px 10px 40px gray;
+    height: 90%;
+    padding-left: 25px;
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan,blue);
+    border-image-slice: 1;
+
+    
+}
+
+#Header{
+    font-size:30px;
+    font-size: xx-large;
+}
+.exp{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,salmon,orange);
+    border-image-slice: 1;
+    background-color: white;
+}
+.lorem{
+    font-weight: 300;
+    color: gray;
+}
+footer p{
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+}
+#last{
+    float:left;
+    margin-left: 40%;
 }
